@@ -11,27 +11,17 @@
             Amount : <input type="number"  id="principal">  
             <br/>
             
-            Rate : <input type="range" id="rate" min="minval" max="maxval" value="default_val">  
+            Rate : <input type="range" id="rate" min="minval" max="maxval" value="default_val">  <span id="rate_val"> 10.25% </span> 
             <br/>
             
-            <span id="rate_val"> 
-            10.25% 
-            </span>
-            <br/>
-            
-            <select id="years"> 
-                <option value="1">1</option>
-                <!-- fill in the rest of the values-->
-            </select>
-            <br/>
-            
-            Interest : <span id="result"></span><br>
+            No. of Years : <input type="number"  id="years">  <br/>
             <br/>
         </div>    
         
-
     <button onclick=compute()>"Compute Interest"</button>
-    <span id="result"> </span>
+    <span id="result"> 
+    
+    </span>
     <footer>
         &#169; This Calculator belongs to Raghav Sharma
     </footer>
