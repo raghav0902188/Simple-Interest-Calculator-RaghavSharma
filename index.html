@@ -12,13 +12,7 @@
             <br/>
             
             Rate : <input type="range" id="rate" min="minval" max="maxval" value="default_val" onchange = "updateRate(this.rate) %">  <span id="rate_val"> 10.25% </span> 
-            <script>
-                    function updateRate() 
-                    {
-                        var rateval = document.getElementById("rate").value;
-                        document.getElementById("rate_val").innerText=rateval;
-                    }
-            </script>
+            
             <br/>
             
             No. of Years : <input type="number"  id="years">  <br/>
