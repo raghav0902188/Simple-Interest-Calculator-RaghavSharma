@@ -7,6 +7,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
 
     p = document.getElementById("principal").value;
+    document.getElementById("rate_val").innerText=rateval
     
 }
 
